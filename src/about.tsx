@@ -2,7 +2,7 @@ import React from 'react'
 
 type Props = {
     data: string[]
-    func: React.Dispatch<React.SetStateAction<string>>
+    func: React.Dispatch<React.SetStateAction<string>>;
 }
 
 const about = ({data, func}: Props) => {
